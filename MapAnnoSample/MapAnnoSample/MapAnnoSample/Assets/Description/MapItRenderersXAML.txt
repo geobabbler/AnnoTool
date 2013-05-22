@@ -1,0 +1,1 @@
+﻿This sample demonstrates the application of class breaks and unique value renderers to data hosted by a MapIt Spatial Data Service. Just as with the Graphics --> Renderers with XAML sample, the renderers and layers are declared entirely in XAML. 

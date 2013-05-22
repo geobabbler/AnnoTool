@@ -1,0 +1,1 @@
+﻿This sample demonsrates adding graphics through user interaction.  The sample uses the Toolkit's Toolbar control and the Draw object to provide graphic drawing tools.  In the sample's code-behind, an event handler for the Toolbar's ItemClicked event is used to parse which tool was clicked and initialize the Draw object accordingly.

@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MapAnnoSampleSite", "MapAnnoSample\MapAnnoSampleSite\", "{34E41ECF-08B4-4742-9990-54E82DE56F3E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/MapAnnoSampleSite"
+		Debug.AspNetCompiler.PhysicalPath = "MapAnnoSample\MapAnnoSampleSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MapAnnoSampleSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MapAnnoSampleSite"
+		Release.AspNetCompiler.PhysicalPath = "MapAnnoSample\MapAnnoSampleSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MapAnnoSampleSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55800"
+		ProjOutputReferences = "{9ada1255-5706-47d1-8b88-9755c25c3384}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapAnnoSample", "MapAnnoSample\MapAnnoSample\MapAnnoSample.csproj", "{9ADA1255-5706-47D1-8B88-9755C25C3384}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SL4PopupMenu", "MapAnnoSample\SL4PopupMenu\SL4PopupMenu.csproj", "{1B8E87EA-54C4-43F0-84A7-ACA4E90A3475}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34E41ECF-08B4-4742-9990-54E82DE56F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E41ECF-08B4-4742-9990-54E82DE56F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E41ECF-08B4-4742-9990-54E82DE56F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E41ECF-08B4-4742-9990-54E82DE56F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ADA1255-5706-47D1-8B88-9755C25C3384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ADA1255-5706-47D1-8B88-9755C25C3384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ADA1255-5706-47D1-8B88-9755C25C3384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ADA1255-5706-47D1-8B88-9755C25C3384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B8E87EA-54C4-43F0-84A7-ACA4E90A3475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8E87EA-54C4-43F0-84A7-ACA4E90A3475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8E87EA-54C4-43F0-84A7-ACA4E90A3475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8E87EA-54C4-43F0-84A7-ACA4E90A3475}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

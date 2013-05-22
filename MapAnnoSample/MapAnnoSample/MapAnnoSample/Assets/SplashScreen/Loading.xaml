@@ -1,0 +1,104 @@
+﻿<!--
+// (c) Copyright ESRI.
+// All other rights reserved.
+-->
+
+<Grid
+	xmlns="http://schemas.microsoft.com/client/2007" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Cursor="Wait">
+	<Grid Width="380" Height="256">
+		<Grid.Clip>
+			<RectangleGeometry Rect="0, 0, 380, 256" />
+		</Grid.Clip>
+		<Image Width="380" Height="256" Source="Assets/SplashScreen/esri_silverlight_splash_screen.jpg" Stretch="None" x:Name="toolkitLogo">
+			<Image.Triggers>
+				<EventTrigger RoutedEvent="Image.Loaded">
+					<BeginStoryboard>
+						<Storyboard x:Name="FeaturesBanner" RepeatBehavior="Forever">
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="t0" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="0:0:00" Value="0"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:00.2" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:00.7" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:00.999" Value="0"/>
+							</DoubleAnimationUsingKeyFrames>
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="t1" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="0:0:01" Value="0"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:01.2" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:01.7" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:01.999" Value="0"/>
+							</DoubleAnimationUsingKeyFrames>
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="t2" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="0:0:02" Value="0"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:02.2" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:02.7" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:02.999" Value="0"/>
+							</DoubleAnimationUsingKeyFrames>
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="t3" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="0:0:03" Value="0"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:03.2" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:03.7" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:03.999" Value="0"/>
+							</DoubleAnimationUsingKeyFrames>
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="t4" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="0:0:04" Value="0"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:04.2" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:04.7" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:04.999" Value="0"/>
+							</DoubleAnimationUsingKeyFrames>
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="t5" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="0:0:05" Value="0"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:05.2" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:05.7" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:05.999" Value="0"/>
+							</DoubleAnimationUsingKeyFrames>
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="t6" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="0:0:06" Value="0"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:06.2" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:06.7" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:06.999" Value="0"/>
+							</DoubleAnimationUsingKeyFrames>
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="t7" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="0:0:07" Value="0"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:07.2" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:07.7" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:07.999" Value="0"/>
+							</DoubleAnimationUsingKeyFrames>
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="t8" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="0:0:08" Value="0"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:08.2" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:08.7" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="0:0:10.999" Value="0"/>
+							</DoubleAnimationUsingKeyFrames>
+						</Storyboard>
+					</BeginStoryboard>
+				</EventTrigger>
+			</Image.Triggers>
+		</Image>
+		<Grid Width="345" Height="50" Margin="18,17,17,0" VerticalAlignment="Top">
+			<Grid.OpacityMask>
+				<LinearGradientBrush EndPoint="1,0" StartPoint="0,0">
+					<GradientStop Color="#0000" Offset="0"/>
+					<GradientStop Color="#ffff" Offset="0.1"/>
+					<GradientStop Color="#ffff" Offset="0.9"/>
+					<GradientStop Color="#0000" Offset="1"/>
+				</LinearGradientBrush>
+			</Grid.OpacityMask>
+			<Grid.Clip>
+				<RectangleGeometry Rect="0, 0, 345, 50" />
+			</Grid.Clip>
+			<TextBlock Foreground="White" x:Name="t0" Opacity="0" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center">Mapping</TextBlock>
+			<TextBlock Foreground="White" x:Name="t1" Opacity="0" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center">Graphics</TextBlock>
+			<TextBlock Foreground="White" x:Name="t2" Opacity="0" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center">Query</TextBlock>
+			<TextBlock Foreground="White" x:Name="t3" Opacity="0" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center">Address matching</TextBlock>
+			<TextBlock Foreground="White" x:Name="t4" Opacity="0" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center">Geoprocessing</TextBlock>
+      <TextBlock Foreground="White" x:Name="t5" Opacity="0" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center">Tasks</TextBlock>
+      <TextBlock Foreground="White" x:Name="t6" Opacity="0" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center">Toolkit</TextBlock>
+      <TextBlock Foreground="White" x:Name="t7" Opacity="0" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center">Sample code</TextBlock>
+		</Grid>
+    <StackPanel x:Name="t8" Opacity="0" VerticalAlignment="Top" Margin="30">
+      <TextBlock Foreground="White" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center">ESRI - Mapping Our World</TextBlock>
+      <TextBlock Foreground="White" FontSize="14" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center">http://www.esri.com/Silverlight</TextBlock>
+    </StackPanel>
+    <TextBlock Foreground="White" x:Name="progressText" Margin="18,0,17,19" Height="26" Text="0%" FontSize="16" Opacity="0.8" VerticalAlignment="Bottom" TextAlignment="Left"/>
+		<TextBlock Foreground="White" x:Name="progressText2" Margin="18,0,7,8" Height="70" Text="0%" FontSize="50" Opacity="0.04" FontWeight="Bold" VerticalAlignment="Bottom" TextAlignment="Left"/>
+	</Grid>
+</Grid>

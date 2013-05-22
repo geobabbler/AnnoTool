@@ -1,0 +1,1 @@
+﻿This sample demonstrates populating a GraphicsLayer with data from a MapIt Spatial Data Service.  In the code-behind, a QueryTask is used to retrieve data from a world cities table hosted in a Spatial Data Service.  The query results are then added to a GraphicsLayer.  In the XAML, the GraphicsLayer is declared with clustering and MapTips enabled.

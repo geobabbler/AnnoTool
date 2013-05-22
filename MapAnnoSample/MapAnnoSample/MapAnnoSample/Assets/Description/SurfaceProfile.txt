@@ -1,3 +1,0 @@
-﻿This sample demonstrates use of the Geoprocessor to call a SurfaceProfile geoprocessing service.  To use the sample, click subsequent points on the map to draw a line.  Double-click to complete the line.  After the line is drawn, a surface profile will be calculated for the line and shown in the lower right corner.
-
-In the code-behind, a Geoprocessor is used to pass the line drawn to the SurfaceProfile service.  When the results are returned, the URL to the profile image is retrieved from them.  This URL is then passed to an image control to be displayed in the application.

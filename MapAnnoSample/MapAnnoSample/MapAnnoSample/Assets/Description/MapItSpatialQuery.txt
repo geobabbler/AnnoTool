@@ -1,3 +1,0 @@
-﻿This sample demonstrates executing interactive spatial queries against a MapIt Spatial Data Service endpoint.  To use the sample, click a drawing tool from the Toolbar in the upper right corner of the applicaton.  Then draw a geometry on the map.  States that intersect the geometry will be shown on the map, and their attributes will be shown in a table in the lower right corner of the application.
-
-In the code-behind, a QueryTask is used to execute the spatial query.  When results are returned they are added to a GraphicsLayer.  The DataGrid is bound to the QueryTask to show the attributes of the results.

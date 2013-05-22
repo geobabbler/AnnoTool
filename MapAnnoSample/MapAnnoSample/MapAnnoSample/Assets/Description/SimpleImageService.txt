@@ -1,1 +1,0 @@
-﻿This sample shows displaying an ArcGISImageServiceLayer on top of an ArcGISTiledMapServiceLayer.

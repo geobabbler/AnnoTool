@@ -1,1 +1,0 @@
-﻿This sample demonstrates using the ESRI.ArcGIS.Client.Toolkit.Bing Geocoder class to perform geocoding and 'reverse geocoding' via Microsoft Bing services. The use of the ESRI.ArcGIS.Client.Symbols PictureMarkerSymbol in a GraphicsLayer is also demonstrated. 

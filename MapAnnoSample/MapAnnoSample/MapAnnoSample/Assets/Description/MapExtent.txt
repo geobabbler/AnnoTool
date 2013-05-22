@@ -1,1 +1,0 @@
-﻿This sample includes a Map and a ArcGISTiledMapServiceLayer and demonstrates how to handle extent changing and changed events on the map.  Both events share the same event handler in code behind.  The extent parameters of the map are display in a textblock as they change at runtime.
